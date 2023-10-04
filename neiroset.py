@@ -1,12 +1,12 @@
 import streamlit as st
-!pip install tensorflow
+pip install tensorflow
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Загрузите предварительно обученную модель h5
-model_path = 'https://disk.yandex.lt/d/6C6Dk6tiIMZAbw'
+model_path = 'https://disk.yandex.lt/d/6C6Dk6tiIMZAbw.h5'
 model = keras.models.load_model(model_path)
 
 # Загрузите файл с метками классов
