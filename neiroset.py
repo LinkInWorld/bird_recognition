@@ -1,6 +1,4 @@
 import streamlit as st
-import numpy as np
-
 
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
