@@ -9,7 +9,7 @@ model_path = 'https://disk.yandex.lt/d/6C6Dk6tiIMZAbw.h5'
 model = keras.models.load_model(model_path)
 
 # Загрузите файл с метками классов
-class_labels_path = 'путь_к_файлу/class_labels.txt'
+class_labels_path = 'https://github.com/LinkInWorld/bird_recognition/blob/main/class.txt'
 with open(class_labels_path, 'r') as file:
     class_labels = [line.strip() for line in file.readlines()]
 
