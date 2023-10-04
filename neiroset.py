@@ -1,5 +1,4 @@
 import streamlit as st
-pip install tensorflow
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing import image
