@@ -1,4 +1,4 @@
-mimport streamlit as st
+import streamlit as st
 
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
