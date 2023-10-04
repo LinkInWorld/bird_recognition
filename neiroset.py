@@ -1,7 +1,7 @@
 import streamlit as st
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.preprocessing import image
+#import tensorflow as tf
+#from tensorflow import keras
+#from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Загрузите предварительно обученную модель h5
