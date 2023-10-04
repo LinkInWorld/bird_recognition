@@ -1,4 +1,4 @@
-import streamlit as st
+mimport streamlit as st
 
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
@@ -8,4 +8,4 @@ uploaded_image = st.file_uploader("Загрузите изображение п�
 
 if uploaded_image is not None:
   st.image(uploaded_image, caption='Загруженное изображение', use_column_width=True)
-  st.write(f'Предсказанный класс: Голубь')
+  st.write(f'Предсказанный класс: Гусь')
