@@ -1,4 +1,7 @@
 import streamlit as st
+from tensorflow.keras.models import load_model
+from google.colab import files
+from tensorflow import keras
 
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
