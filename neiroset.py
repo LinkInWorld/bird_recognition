@@ -6,7 +6,7 @@ from tensorflow import keras
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
 
-model = load_model('/content/drive/MyDrive/bird/efficientnetb5.h5')
+model = load_model('https://disk.yandex.lt/d/C8wuvVWjLOME3w')
 
 # Добавьте загрузку изображения через браузер
 uploaded_image = st.file_uploader("Загрузите изображение птицы", type=["jpg", "png", "jpeg"])
