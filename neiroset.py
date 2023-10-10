@@ -5,6 +5,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.vgg16 import preprocess_input
+from tensorflow.keras.preprocessing import image
 
 # Загрузите предварительно обученную модель h5 https://github.com/LinkInWorld/bird_recognition/releases
 
