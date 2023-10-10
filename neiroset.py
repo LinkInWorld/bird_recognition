@@ -32,5 +32,5 @@ if uploaded_image is not None:
     
     # Выведите результат
     st.image(uploaded_image, caption='Загруженное изображение', use_column_width=True)
-    st.write(f'Предсказанный класс: {predicted_label} ({class_labels_russian[predicted_class]})')
+    st.write(f'Предсказанный класс: {predicted_label}')
     st.write(f'Максимальная вероятность: {max_probability:.2%}')
