@@ -8,7 +8,7 @@ from tensorflow.keras.applications.vgg16 import preprocess_input
 from tensorflow.keras.preprocessing import image
 
 # model= keras.models.load_model('./EfficientNetB0-525-(224 X 224)- 98.97.h5', custom_objects={'F1_score':'F1_score'})
-model= keras.models.load_model('model.h5', custom_objects={'F1_score':'F1_score'})
+model= keras.models.load_model('./model.h5', custom_objects={'F1_score':'F1_score'})
 
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
