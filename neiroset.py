@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.vgg16 import preprocess_input
 from tensorflow.keras.preprocessing import image
 
-model= keras.models.load_model('./releases/tag/model.h5', custom_objects={'F1_score':'F1_score'})
+model= keras.models.load_model('./releases/download/model.h5/model.h5', custom_objects={'F1_score':'F1_score'})
 
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
