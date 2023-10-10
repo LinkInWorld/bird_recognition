@@ -9,6 +9,7 @@ from tensorflow.keras.preprocessing import image
 
 # Загрузите предварительно обученную модель h5 https://github.com/LinkInWorld/bird_recognition/releases
 wget -O model.h5 "https://drive.google.com/uc?export=download&id=1Iur8carY3Izn7CxPdYGHOOA5DiN0Gj2v"
+model= keras.models.load_model('model.h5', custom_objects={'F1_score':'F1_score'})
 
 # Создайте Streamlit веб-приложение
 st.title('Определение вида птицы')
