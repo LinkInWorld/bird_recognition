@@ -28,7 +28,9 @@ if uploaded_image is not None:
     predictions = model.predict(img)
     predicted_class = np.argmax(predictions)
     predicted_label = class_labels[predicted_class]
+    max_probability = np.max(predictions)
     
     # Выведите результат
     st.image(uploaded_image, caption='Загруженное изображение', use_column_width=True)
     st.write(f'Предсказанный класс: {predicted_label}')
+    st.write(f'Максимальная вероятность: {max_probability:.2%}')
