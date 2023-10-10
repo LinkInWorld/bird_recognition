@@ -20,7 +20,7 @@ uploaded_image = st.file_uploader("Загрузите изображение п�
 
 if uploaded_image is not None:  
     # Нормализация изображения
-    img = image.load_img(uploaded_image, target_size=(224, 224))
+    img = image.load_img(uploaded_image, target_size=(224, 224), grayscale=False)
     img = image.img_to_array(img)
     img = np.expand_dims(img, axis=0)
 
